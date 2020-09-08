@@ -1,0 +1,112 @@
+.defaultText {
+  font-size: 16;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+  text-anchor: middle;
+  width: 100%;
+}
+
+
+.infopane {
+  /* Default behaviour: don’t show the infopanes until data is in */
+  display: none;
+}
+
+.infopaneback {
+  display:none;
+  width: 100%;
+  height: 240;
+  fill: "black";
+  y: 30;
+}
+
+.platform-label {
+  y: 150;
+  x: 100%-35;
+  font-size: 30;
+  text-anchor: end;
+  font-family: Seville-Bold;
+  display: none;
+  fill: white;
+}
+.platform-text {
+  y: 150;
+  x: 100%-20;
+  font-size: 30;
+  text-anchor: end;
+  font-family: Seville-Bold;
+  text-length: 15;
+  fill: white;
+}
+.duration-text {
+  y: 30%;
+  x: 10%;
+  font-size: 21;
+  text-length: 30;
+  fill: white;
+}
+.countdown {
+  y: 200;
+  font-size: 60;
+  font-family: Seville-Bold;
+  font-weight: regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 100%-20;
+  fill: white;
+}
+.delay {
+  font-size: 30;
+  font-family: Seville-Bold;
+  font-weight: regular;
+  text-length: 32;
+  fill: red;
+  y: 230;
+  x: 100%-20;
+  text-anchor: end;
+}
+
+.station {
+  fill: red;
+  height: 10%;
+  width: 100%;
+}
+#background-date-and-time {
+  y: 0;
+  height: 10%;
+  fill: black;
+}
+#text-date-and-time {
+  text-anchor: middle;
+  x: 50%;
+  fill: white;
+  font-size: 24;
+  y: 10%-8;
+  
+}
+#background-from {
+  y: 10%;
+}
+#background-to {
+  y: 90%;
+}
+#txt-from {
+  /*text-anchor: middle;*/
+  x: 10%;
+  y: 10%+25;/*+font-size + 5 margin */ 
+  font-size: 30;
+}
+#txt-to {
+  /*text-anchor: middle;
+  x: 50%;*/
+  x: 10%;
+  y: 100%-5; 
+  font-size: 30;
+}
+
+
+#pagination-dots {
+  height: 235;
+}
+

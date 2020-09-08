@@ -1,0 +1,222 @@
+<svg>
+  <!-- from the moment the infopane is displayed, this one disappears -->
+  <!--<text x="50%" y="50%" text-anchor="middle" fill="red">_loading</text>-->
+  <defs>
+    <symbol id="circle">
+      <arc width="20" height="20" fill="white" arc-width="4" start-angle="0" sweep-angle="360" />
+    </symbol>
+  </defs>
+  <use id="container" href="#panoramaview">
+    <use id="item1" class="infopane" href="#panoramaview-item">
+      <rect class="infopaneback" />
+      <text class="duration-text" id="duration-text-1">                   </text>
+      <text class="platform-label">_platform</text>
+      <text class="platform-text" id="platform-text-1">---</text>
+      <text class="delay" id="delay1">---</text>
+      <text class="countdown" id="countdown1">---</text>
+      <g id="0-transfers-1" class="transferline" display="none">
+        <line x1="16" y1="40" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="1-transfers-1" display="none">
+        <line x1="16" y1="40" x2="16" y2="50%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="50%-20"/>
+        <use href="#circle" x="6" y="50%+10"/>
+        <line x1="16" y1="50%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="2-transfers-1" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="x-transfers-1" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="50%-10" fill="white" stroke-width="4" />
+        <text x="16" y="50%" text-anchor="middle">...</text>
+        <line x1="16" y1="50%+8" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+    </use>
+    <use id="item2" class="infopane" href="#panoramaview-item">
+      <rect class="infopaneback" />
+      <text class="duration-text" id="duration-text-2"></text>
+      <text class="platform-label">_platform</text>
+      <text class="platform-text" id="platform-text-2">---</text>
+      <text class="delay" id="delay2">---</text>
+      <text class="countdown" id="countdown2">---</text>
+      <g id="0-transfers-2" class="transferline" display="none">
+        <line x1="16" y1="40" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="1-transfers-2" display="none">
+        <line x1="16" y1="40" x2="16" y2="50%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="50%-20"/>
+        <use href="#circle" x="6" y="50%+10"/>
+        <line x1="16" y1="50%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="2-transfers-2" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="x-transfers-2" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="50%-10" fill="white" stroke-width="4" />
+        <text x="16" y="50%" text-anchor="middle">...</text>
+        <line x1="16" y1="50%+8" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+    </use>
+    <use id="item3" class="infopane" href="#panoramaview-item">
+      <rect class="infopaneback" />
+      <text class="duration-text" id="duration-text-3"></text>
+      <text class="platform-label">_platform</text>
+      <text class="platform-text" id="platform-text-3">---</text>
+      <text class="delay" id="delay3">---</text>
+      <text class="countdown" id="countdown3">---</text>
+      <g id="0-transfers-3" class="transferline" display="none">
+        <line x1="16" y1="40" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="1-transfers-3" display="none">
+        <line x1="16" y1="40" x2="16" y2="50%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="50%-20"/>
+        <use href="#circle" x="6" y="50%+10"/>
+        <line x1="16" y1="50%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="2-transfers-3" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="x-transfers-3" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="50%-10" fill="white" stroke-width="4" />
+        <text x="16" y="50%" text-anchor="middle">...</text>
+        <line x1="16" y1="50%+8" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+    </use>
+    <use id="item4" class="infopane" href="#panoramaview-item">
+      <rect class="infopaneback" />
+      <text class="duration-text" id="duration-text-4"></text>
+      <text class="platform-label">_platform</text>
+      <text class="platform-text" id="platform-text-4">---</text>
+      <text class="delay" id="delay4">---</text>
+      <text class="countdown" id="countdown4">---</text>
+      <g id="0-transfers-4" class="transferline" display="none">
+        <line x1="16" y1="40" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="1-transfers-4" display="none">
+        <line x1="16" y1="40" x2="16" y2="50%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="50%-20"/>
+        <use href="#circle" x="6" y="50%+10"/>
+        <line x1="16" y1="50%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="2-transfers-4" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="x-transfers-4" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="50%-10" fill="white" stroke-width="4" />
+        <text x="16" y="50%" text-anchor="middle">...</text>
+        <line x1="16" y1="50%+8" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+    </use>
+    <use id="item5" class="infopane" href="#panoramaview-item">
+      <rect class="infopaneback" />
+      <text class="duration-text" id="duration-text-5"></text>
+      <text class="platform-label">_platform</text>
+      <text class="platform-text" id="platform-text-5">---</text>
+      <text class="delay" id="delay5">---</text>
+      <text class="countdown" id="countdown5">---</text>
+      <g id="0-transfers-5" class="transferline" display="none">
+        <line x1="16" y1="40" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="1-transfers-5" display="none">
+        <line x1="16" y1="40" x2="16" y2="50%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="50%-20"/>
+        <use href="#circle" x="6" y="50%+10"/>
+        <line x1="16" y1="50%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="2-transfers-5" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+      <g id="x-transfers-5" display="none">
+        <line x1="16" y1="40" x2="16" y2="30%-20" fill="white" stroke-width="4" />
+        <use href="#circle" x="6" y="30%-20"/>
+        <use href="#circle" x="6" y="30%+10"/>
+        <line x1="16" y1="30%+30" x2="16" y2="50%-10" fill="white" stroke-width="4" />
+        <text x="16" y="50%" text-anchor="middle">...</text>
+        <line x1="16" y1="50%+8" x2="16" y2="70%-20" fill="white" stroke-width="4" />
+
+        <use href="#circle" x="6" y="70%-20"/>
+        <use href="#circle" x="6" y="70%+10"/>
+        <line x1="16" y1="70%+30" x2="16" y2="100%-30" fill="white" stroke-width="4" />
+      </g>
+    </use>
+    
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+    <use id="pagination-dots" href="#pagination-widget" y="255">
+      <use href="#pagination-dot"/>
+      <use href="#pagination-dot"/>
+      <use href="#pagination-dot"/>
+      <use href="#pagination-dot"/>
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot"/>
+    </use>
+  </use>
+  <rect id="background-date-and-time"/>
+  <text id="text-date-and-time">2020-12-25         00:00</text>
+  <rect id="background-from" class="station"/>
+  <rect id="background-to" class="station"/>
+  <text id="txt-from" pointer-events="visible">_loading</text>
+  <text id="txt-to" pointer-events="visible">_loading</text>
+  <!-- these are the end dots for the line visualizing the number of transfers -->
+  <use id="from-circle" href="#circle" x="6" y="15%-10"/>
+  <line x1="16" y1="15%+10" x2="16" y2="15%+15" fill="white" stroke-width="4" />
+  <use id="to-circle" href="#circle" x="6" y="100%-25"/>
+  <line x1="16" y1="100%-25" x2="16" y2="100%-29" fill="white" stroke-width="4" />
+</svg>

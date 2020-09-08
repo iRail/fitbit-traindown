@@ -1,0 +1,8 @@
+msgid "platform"
+msgstr "Gleis"
+
+msgid "loading"
+msgstr "Wird geladen"
+
+msgid "duration"
+msgstr "Dauer"

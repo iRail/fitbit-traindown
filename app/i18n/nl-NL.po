@@ -1,0 +1,8 @@
+msgid "platform"
+msgstr "Perron"
+
+msgid "loading"
+msgstr "Aan het laden"
+
+msgid "duration"
+msgstr "Duur"

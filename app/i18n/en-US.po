@@ -1,0 +1,8 @@
+msgid "platform"
+msgstr "Platform"
+
+msgid "loading"
+msgstr "Loading"
+
+msgid "duration"
+msgstr "Duration"

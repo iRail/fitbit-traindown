@@ -1,0 +1,8 @@
+msgid "platform"
+msgstr "Quai"
+
+msgid "loading"
+msgstr "Chargement en cours"
+
+msgid "duration"
+msgstr "Durée"
