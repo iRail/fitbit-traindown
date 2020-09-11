@@ -122,6 +122,7 @@ messaging.peerSocket.onmessage = evt => {
 };
 
 function populateResults(results) {
+  document.getElementById("spinner").state = "disabled";
   departureTimes = [];
   delays = [];
   //populate all elements
@@ -166,7 +167,13 @@ function populateResults(results) {
 }
 
 function launchLookup(from, to) {
-  //TODO: show spinner?
+  // show spinner and hide panes
+  document.getElementById("spinner").state = "enabled";
+  for (var i = 0; i < MAX_PANES; i++) {
+    let index = i+1;
+    let pane = document.getElementById("item"+index);
+    pane.style.display = "hidden";
+  }
   departureTimes = [];
   delays = [];
   document.getElementById("txt-from").text = from;
@@ -184,24 +191,36 @@ messaging.peerSocket.onclose = () => {
   console.log("App Socket Closed");
 };
 
-document.getElementById('txt-from').onclick = (a, evt) => {
+document.getElementById('click-space-from').onclick = (a, evt) => {
   fromStationId ++;
   fromStationId %= stations.length;
-  //Make sure origin and destination are not the same
+  //Make sure origin and destination are not the same, unless there are only 2 in the lest, then swith them around
   if (fromStationId === toStationId) {
-    fromStationId ++;
-    fromStationId %= stations.length;
+    if (stations.length === 2) {
+      let helper = fromStationId;
+      toStationId = fromStationId;
+      fromStationId = helper;
+    } else {
+      fromStationId ++;
+      fromStationId %= stations.length;
+    }
   }
   launchLookup(stations[fromStationId], stations[toStationId]);
 }
 
-document.getElementById('txt-to').onclick = (a, evt) => {
+document.getElementById('click-space-to').onclick = (a, evt) => {
   toStationId ++;
   toStationId %= stations.length;
-  //Make sure origin and destination are not the same
+  //Make sure origin and destination are not the same, unless there are only 2 in the lest, then swith them around
   if (fromStationId === toStationId) {
-    toStationId ++;
-    toStationId %= stations.length;
+    if (stations.length === 2) {
+      let helper = fromStationId;
+      toStationId = fromStationId;
+      fromStationId = helper;
+    } else {
+      toStationId ++;
+      toStationId %= stations.length;
+    }
   }
   launchLookup(stations[fromStationId], stations[toStationId]);
 }

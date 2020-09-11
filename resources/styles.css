@@ -17,7 +17,7 @@
   display:none;
   width: 100%;
   height: 240;
-  fill: "black";
+  fill: fb-black;
   y: 30;
 }
 
@@ -28,7 +28,7 @@
   text-anchor: end;
   font-family: Seville-Bold;
   display: none;
-  fill: white;
+  fill: fb-white;
 }
 .platform-text {
   y: 150;
@@ -37,14 +37,14 @@
   text-anchor: end;
   font-family: Seville-Bold;
   text-length: 15;
-  fill: white;
+  fill: fb-white;
 }
 .duration-text {
   y: 30%;
   x: 10%;
   font-size: 21;
   text-length: 30;
-  fill: white;
+  fill: fb-white;
 }
 .countdown {
   y: 200;
@@ -54,33 +54,33 @@
   text-length: 32;
   text-anchor: end;
   x: 100%-20;
-  fill: white;
+  fill: fb-white;
 }
 .delay {
   font-size: 30;
   font-family: Seville-Bold;
   font-weight: regular;
   text-length: 32;
-  fill: red;
+  fill: fb-red;
   y: 230;
   x: 100%-20;
   text-anchor: end;
 }
 
 .station {
-  fill: red;
+  fill: "#AA0000";
   height: 10%;
   width: 100%;
 }
 #background-date-and-time {
   y: 0;
   height: 10%;
-  fill: black;
+  fill: fb-black;
 }
 #text-date-and-time {
   text-anchor: middle;
   x: 50%;
-  fill: white;
+  fill: fb-white;
   font-size: 24;
   y: 10%-8;
   
@@ -91,18 +91,40 @@
 #background-to {
   y: 90%;
 }
+
+ 
+#click-space-from {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 25%;
+  opacity:0;
+}
 #txt-from {
   /*text-anchor: middle;*/
   x: 10%;
   y: 10%+25;/*+font-size + 5 margin */ 
   font-size: 30;
+  font-family: Seville-Bold;
+  fill: fb-white;
+
 }
+#click-space-to {
+  x: 0;
+  y: 75%;
+  width: 100%;
+  height: 25%;
+  opacity:0;
+}
+
 #txt-to {
   /*text-anchor: middle;
   x: 50%;*/
   x: 10%;
   y: 100%-5; 
   font-size: 30;
+  font-family: Seville-Bold;
+  fill: fb-white;
 }
 
 
@@ -110,3 +132,10 @@
   height: 235;
 }
 
+#spinner {
+  x: 30%-25;
+  y: 50%-25; 
+  width: 50; 
+  height: 50; 
+  fill: fb-white; }
+}

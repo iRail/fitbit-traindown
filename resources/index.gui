@@ -212,11 +212,15 @@
   <text id="text-date-and-time">2020-12-25         00:00</text>
   <rect id="background-from" class="station"/>
   <rect id="background-to" class="station"/>
-  <text id="txt-from" pointer-events="visible">_loading</text>
-  <text id="txt-to" pointer-events="visible">_loading</text>
+  <text id="txt-from">_loading</text>
+  <rect id="click-space-from" pointer-events="visible"/>
+  <text id="txt-to">_loading</text>
+  <rect id="click-space-to" pointer-events="visible"/>
   <!-- these are the end dots for the line visualizing the number of transfers -->
   <use id="from-circle" href="#circle" x="6" y="15%-10"/>
   <line x1="16" y1="15%+10" x2="16" y2="15%+15" fill="white" stroke-width="4" />
   <use id="to-circle" href="#circle" x="6" y="100%-25"/>
   <line x1="16" y1="100%-25" x2="16" y2="100%-29" fill="white" stroke-width="4" />
+  <!--Loading spinner -->
+  <use id="spinner" href="#spinner" />
 </svg>
