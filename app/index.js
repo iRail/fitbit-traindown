@@ -105,6 +105,7 @@ function formatTripDuration (min_num) {
 messaging.peerSocket.onmessage = evt => {
   console.log(`App received: ${JSON.stringify(evt)}`);
   if (evt.data.stations) {
+    console.log(JSON.stringify(evt.data))
     //Populate stations list from settings
     stations = evt.data.stations;
     launchLookup(stations[fromStationId], stations[toStationId]);
@@ -198,8 +199,8 @@ document.getElementById('click-space-from').onclick = (a, evt) => {
   if (fromStationId === toStationId) {
     if (stations.length === 2) {
       let helper = fromStationId;
-      toStationId = fromStationId;
-      fromStationId = helper;
+      fromStationId = toStationId;
+      toStationId = helper;
     } else {
       fromStationId ++;
       fromStationId %= stations.length;
@@ -215,8 +216,8 @@ document.getElementById('click-space-to').onclick = (a, evt) => {
   if (fromStationId === toStationId) {
     if (stations.length === 2) {
       let helper = fromStationId;
-      toStationId = fromStationId;
-      fromStationId = helper;
+      fromStationId = toStationId;
+      toStationId = helper;
     } else {
       toStationId ++;
       toStationId %= stations.length;

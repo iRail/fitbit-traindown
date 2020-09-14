@@ -1,4 +1,7 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
   "fitbit": {
     "appUUID": "18d42f63-da38-43db-9da3-91685086be41",
     "appType": "app",
@@ -10,25 +13,25 @@
       "access_internet"
     ],
     "buildTargets": [
-      "mira"
+      "mira",
+      "gemini",
+      "meson",
+      "higgs"
     ],
     "i18n": {
-      "en": {
+      "en-US": {
         "name": "Train down"
       },
-      "de": {
+      "de-DE": {
         "name": "Zug down"
       },
-      "fr": {
+      "fr-FR": {
         "name": "Train down"
       },
-      "nl": {
+      "nl-NL": {
         "name": "Train down"
       }
     },
     "defaultLanguage": "en-US"
-  },
-  "devDependencies": {
-    "@fitbit/sdk": "~4.1.0"
   }
 }

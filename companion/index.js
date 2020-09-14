@@ -37,7 +37,7 @@ function sendDepartures(from, to) {
 }
 
 function sendStations() {
-  let stations = [{name:"Gent Sint Pieters"},{name:"Brussels Central"},{name:"Brussels Midi"}, {name:"Antwerp Central"}, {name:"Namur"}];
+  let stations = ["Gent Sint Pieters","Brussels Central","Brussels Midi", "Antwerp Central", "Namur"];
   if (settingsStorage.getItem("stations")) {    
     let settingsStations = JSON.parse(settingsStorage.getItem("stations")).map((item) => {
                     return item.name;
